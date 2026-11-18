@@ -1,0 +1,1619 @@
+{
+ "folds": 37,
+ "big_folds": 16,
+ "near_folds": 21,
+ "baseline": {
+  "all": 0.9296503839659733,
+  "big": 0.26113704589847786,
+  "near": 0.37102915262159014
+ },
+ "search": {
+  "pass1": [
+   {
+    "all": 0.4038906434072546,
+    "big": 0.21616377717323815,
+    "near": 0.2715320586023235,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2971954930609388
+   },
+   {
+    "all": 0.4016158697417591,
+    "big": 0.21523715717383904,
+    "near": 0.27493826050444375,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29726376247334735
+   },
+   {
+    "all": 0.40455926441945234,
+    "big": 0.2162396137685722,
+    "near": 0.2718601318157027,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29755300333457574
+   },
+   {
+    "all": 0.40410879996786514,
+    "big": 0.21670060920329712,
+    "near": 0.27188541113072134,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2975649401006279
+   },
+   {
+    "all": 0.4039413201376699,
+    "big": 0.21730725436896411,
+    "near": 0.2714644629955962,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2975710125007434
+   },
+   {
+    "all": 0.4010076963589293,
+    "big": 0.2198861561912809,
+    "near": 0.2718500249594179,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29758129250320936
+   },
+   {
+    "all": 0.4018510968481797,
+    "big": 0.2157898471038476,
+    "near": 0.275383040422904,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2976746614583104
+   },
+   {
+    "all": 0.40193499256826315,
+    "big": 0.21716805211578882,
+    "near": 0.27450550301878607,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.297869515900946
+   },
+   {
+    "all": 0.4047583824041525,
+    "big": 0.21672710299546658,
+    "near": 0.272259781244484,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2979150888813677
+   },
+   {
+    "all": 0.40429214829212967,
+    "big": 0.2178775350726208,
+    "near": 0.27195155270979005,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2980404120248468
+   },
+   {
+    "all": 0.40143957877085373,
+    "big": 0.2204744889966268,
+    "near": 0.2723463869136364,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29808681822703903
+   },
+   {
+    "all": 0.4039143076429759,
+    "big": 0.2164828505720052,
+    "near": 0.27403572131552445,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 1.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29814429317683516
+   },
+   {
+    "all": 0.40276185736922343,
+    "big": 0.2191613760691704,
+    "near": 0.2727851227540427,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2982361187308122
+   },
+   {
+    "all": 0.4023097227411294,
+    "big": 0.21779236409764052,
+    "near": 0.27508945939670143,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2983971820784905
+   },
+   {
+    "all": 0.4023655428861732,
+    "big": 0.22044600527236055,
+    "near": 0.2724051107626567,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 0,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29840555297373017
+   },
+   {
+    "all": 0.40378216445913556,
+    "big": 0.21577186937753365,
+    "near": 0.2757160092897844,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 0,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29842334770881784
+   },
+   {
+    "all": 0.40575215798793934,
+    "big": 0.21765806103284557,
+    "near": 0.2719023363036062,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 0,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29843751844146366
+   },
+   {
+    "all": 0.4033438024161818,
+    "big": 0.21890428946344115,
+    "near": 0.2731393879244025,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 1.0,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2984624932680085
+   },
+   {
+    "all": 0.4041176411943838,
+    "big": 0.21697881700201896,
+    "near": 0.2744418344939183,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 1.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29851276423010703
+   },
+   {
+    "all": 0.4065504419625361,
+    "big": 0.21676037152068453,
+    "near": 0.2724565476538196,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 0,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2985891203790134
+   }
+  ],
+  "pass2": [
+   {
+    "all": 0.4011239107133525,
+    "big": 0.21457880295055964,
+    "near": 0.2746683331553506,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29679034893975426
+   },
+   {
+    "all": 0.4035667366997942,
+    "big": 0.21592766231575605,
+    "near": 0.27140969790691505,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2969680323074884
+   },
+   {
+    "all": 0.40335183700272087,
+    "big": 0.2164532368744804,
+    "near": 0.27117013943345,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2969917377702171
+   },
+   {
+    "all": 0.40418064965952183,
+    "big": 0.2156511979556311,
+    "near": 0.2716386604605815,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29715683602524484
+   },
+   {
+    "all": 0.4038906434072546,
+    "big": 0.21616377717323815,
+    "near": 0.2715320586023235,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2971954930609388
+   },
+   {
+    "all": 0.4038906434072546,
+    "big": 0.21616377717323815,
+    "near": 0.2715320586023235,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.6,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2971954930609388
+   },
+   {
+    "all": 0.40158351006080045,
+    "big": 0.21516232541162203,
+    "near": 0.2749191448370778,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.6,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29722166010316675
+   },
+   {
+    "all": 0.4016158697417591,
+    "big": 0.21523715717383904,
+    "near": 0.27493826050444375,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29726376247334735
+   },
+   {
+    "all": 0.40377776067102666,
+    "big": 0.2163867009445336,
+    "near": 0.2717718171623788,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29731209292597965
+   },
+   {
+    "all": 0.4007714718308132,
+    "big": 0.2194287807431816,
+    "near": 0.27174637802356094,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2973155435325186
+   },
+   {
+    "all": 0.4009642233794172,
+    "big": 0.2194287807431816,
+    "near": 0.27174637802356094,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 4.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2973797940487199
+   },
+   {
+    "all": 0.4047052726718477,
+    "big": 0.2164532368744804,
+    "near": 0.27117013943345,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 4.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2974428829932594
+   },
+   {
+    "all": 0.40384300614848806,
+    "big": 0.2170799032689811,
+    "near": 0.27141158369765206,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.6,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29744483103837377
+   },
+   {
+    "all": 0.4045330227524731,
+    "big": 0.21617892991368257,
+    "near": 0.2718601318157027,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.6,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29752402816061946
+   },
+   {
+    "all": 0.4034496295865977,
+    "big": 0.2157157676029478,
+    "near": 0.2734104895801686,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 1.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29752529558990465
+   },
+   {
+    "all": 0.40455926441945234,
+    "big": 0.2162396137685722,
+    "near": 0.2718601318157027,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29755300333457574
+   },
+   {
+    "all": 0.40410879996786514,
+    "big": 0.21670060920329712,
+    "near": 0.27188541113072134,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2975649401006279
+   },
+   {
+    "all": 0.40410879996786514,
+    "big": 0.21670060920329712,
+    "near": 0.27188541113072134,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.6,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2975649401006279
+   },
+   {
+    "all": 0.4039413201376699,
+    "big": 0.21730725436896411,
+    "near": 0.2714644629955962,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.2975710125007434
+   },
+   {
+    "all": 0.4010076963589293,
+    "big": 0.2198861561912809,
+    "near": 0.2718500249594179,
+    "cfg": {
+     "bw_scale": 1.25,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 0.85,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 0.0,
+     "min_templates": 6,
+     "min_base": 1.0
+    },
+    "obj": 0.29758129250320936
+   }
+  ],
+  "pass3": [
+   {
+    "all": 0.3974057613955826,
+    "big": 0.21325862389899294,
+    "near": 0.2731819076909272,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.29461543099516757
+   },
+   {
+    "all": 0.39763163620778236,
+    "big": 0.21390996841654997,
+    "near": 0.27366640427349,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.29506933629927407
+   },
+   {
+    "all": 0.39779369937963555,
+    "big": 0.21480308071526896,
+    "near": 0.2732637663939339,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2952868488296128
+   },
+   {
+    "all": 0.399284404648823,
+    "big": 0.21484770376296553,
+    "near": 0.27222816845541326,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2954534256224006
+   },
+   {
+    "all": 0.399284404648823,
+    "big": 0.21484770376296553,
+    "near": 0.27222816845541326,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2954534256224006
+   },
+   {
+    "all": 0.398034903314806,
+    "big": 0.21545175753122153,
+    "near": 0.27362297103659766,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.29570321062754173
+   },
+   {
+    "all": 0.39946091564145075,
+    "big": 0.21532295175337546,
+    "near": 0.2726464187653298,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2958100953867187
+   },
+   {
+    "all": 0.39946091564145075,
+    "big": 0.21532295175337546,
+    "near": 0.2726464187653298,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2958100953867187
+   },
+   {
+    "all": 0.3996962502757871,
+    "big": 0.21648358987659055,
+    "near": 0.2724473928672741,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2962090776732173
+   },
+   {
+    "all": 0.3996962502757871,
+    "big": 0.21648358987659055,
+    "near": 0.2724473928672741,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2962090776732173
+   },
+   {
+    "all": 0.40069904721171834,
+    "big": 0.214859694293988,
+    "near": 0.27368203502463545,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "step"
+    },
+    "obj": 0.2964135921767806
+   },
+   {
+    "all": 0.39991751017843546,
+    "big": 0.21697814838213259,
+    "near": 0.27276494457879236,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.29655353437978677
+   },
+   {
+    "all": 0.39991751017843546,
+    "big": 0.21697814838213259,
+    "near": 0.27276494457879236,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.29655353437978677
+   },
+   {
+    "all": 0.40004437304964147,
+    "big": 0.21414241490063274,
+    "near": 0.2755092018355398,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.15,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "interp"
+    },
+    "obj": 0.2965653299286047
+   },
+   {
+    "all": 0.4011239107133525,
+    "big": 0.21457880295055964,
+    "near": 0.2746683331553506,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "step"
+    },
+    "obj": 0.29679034893975426
+   },
+   {
+    "all": 0.40097537052420484,
+    "big": 0.215392839409509,
+    "near": 0.274065211199598,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.6,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 2,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "step"
+    },
+    "obj": 0.2968111403777706
+   },
+   {
+    "all": 0.4035667366997942,
+    "big": 0.21592766231575605,
+    "near": 0.27140969790691505,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "step"
+    },
+    "obj": 0.2969680323074884
+   },
+   {
+    "all": 0.4035667366997942,
+    "big": 0.21592766231575605,
+    "near": 0.27140969790691505,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.0,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "step"
+    },
+    "obj": 0.2969680323074884
+   },
+   {
+    "all": 0.40267951049742595,
+    "big": 0.217080241199422,
+    "near": 0.27128589416696325,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "step"
+    },
+    "obj": 0.29701521528793706
+   },
+   {
+    "all": 0.40267951049742595,
+    "big": 0.217080241199422,
+    "near": 0.27128589416696325,
+    "cfg": {
+     "bw_scale": 0.9,
+     "bw_rel0": 0.0,
+     "bw_relprev": 0.0,
+     "alpha": 1.0,
+     "smooth_k": 1,
+     "ess_floor": 0.0,
+     "min_log_spread": 1.5,
+     "min_templates": 6,
+     "min_base": 1.0,
+     "qmethod": "step"
+    },
+    "obj": 0.29701521528793706
+   }
+  ],
+  "chosen": {
+   "bw_scale": 0.9,
+   "bw_rel0": 0.6,
+   "bw_relprev": 0.0,
+   "alpha": 1.0,
+   "smooth_k": 1,
+   "ess_floor": 0.0,
+   "min_log_spread": 1.0,
+   "min_templates": 6,
+   "min_base": 1.0,
+   "qmethod": "interp"
+  }
+ },
+ "report": {
+  "pools": {
+   "all": {
+    "items": 4255,
+    "loss": 0.3974057613955826,
+    "coverage": 0.8660399529964747,
+    "hours": 851
+   },
+   "big": {
+    "items": 1840,
+    "loss": 0.21325862389899294,
+    "coverage": 0.8940217391304348,
+    "hours": 368
+   },
+   "near": {
+    "items": 2415,
+    "loss": 0.2731819076909272,
+    "coverage": 0.8861283643892339,
+    "hours": 483
+   }
+  },
+  "baselines": {
+   "all": 0.9296503839659733,
+   "big": 0.26113704589847786,
+   "near": 0.37102915262159014
+  },
+  "per_fold": {
+   "ELDEN RING": {
+    "items": 115,
+    "loss": 0.10264165809549808,
+    "typical_miss": 16.21046645240314,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Resident Evil Requiem": {
+    "items": 115,
+    "loss": 1.097680745374506,
+    "typical_miss": 304.4217917325696,
+    "coverage": 0.17391304347826086,
+    "hours": 23
+   },
+   "Hogwarts Legacy": {
+    "items": 115,
+    "loss": 0.1305379089804856,
+    "typical_miss": 14.640854791841829,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Cyberpunk 2077": {
+    "items": 115,
+    "loss": 0.14013451355603632,
+    "typical_miss": 24.851036445916442,
+    "coverage": 0.9130434782608695,
+    "hours": 23
+   },
+   "Ghost of Y\u014dtei": {
+    "items": 115,
+    "loss": 0.25280737622366395,
+    "typical_miss": 51.034462962603676,
+    "coverage": 0.9565217391304348,
+    "hours": 23
+   },
+   "Monster Hunter Wilds": {
+    "items": 115,
+    "loss": 0.44558621671405635,
+    "typical_miss": 103.95114988824562,
+    "coverage": 0.5217391304347826,
+    "hours": 23
+   },
+   "Black Myth: Wukong": {
+    "items": 115,
+    "loss": 1.77053839275003,
+    "typical_miss": 933.4348674762143,
+    "coverage": 0.6521739130434783,
+    "hours": 23
+   },
+   "Hollow Knight: Silksong": {
+    "items": 115,
+    "loss": 0.8364087830112044,
+    "typical_miss": 222.9305619009559,
+    "coverage": 0.5217391304347826,
+    "hours": 23
+   },
+   "Battlefield 6": {
+    "items": 115,
+    "loss": 0.4404363350380895,
+    "typical_miss": 51.67604487390231,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Call of Duty: Black Ops 6": {
+    "items": 115,
+    "loss": 0.22938788674834992,
+    "typical_miss": 53.51807379790146,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Call of Duty: Modern Warfare III": {
+    "items": 115,
+    "loss": 0.13589305347272448,
+    "typical_miss": 15.211219967072132,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Call of Duty: Black Ops 7": {
+    "items": 115,
+    "loss": 0.1267667932665871,
+    "typical_miss": 6.667706685728225,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Call of Duty: Modern Warfare 4": {
+    "items": 115,
+    "loss": 0.15884429955365478,
+    "typical_miss": 23.1328553477282,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "007 First Light": {
+    "items": 115,
+    "loss": 0.24629349398723152,
+    "typical_miss": 61.11602615010943,
+    "coverage": 0.8260869565217391,
+    "hours": 23
+   },
+   "Forza Horizon 6": {
+    "items": 115,
+    "loss": 0.18400918908298694,
+    "typical_miss": 32.40754487309865,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Marathon": {
+    "items": 115,
+    "loss": 1.262016451137788,
+    "typical_miss": 638.0222737181663,
+    "coverage": 0.6086956521739131,
+    "hours": 23
+   },
+   "Saros": {
+    "items": 115,
+    "loss": 0.47350951001416547,
+    "typical_miss": 100.55547722480034,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "The Legend of Zelda: Tears of the Kingdom": {
+    "items": 115,
+    "loss": 0.24819662504122456,
+    "typical_miss": 56.061330417214016,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Starfield": {
+    "items": 115,
+    "loss": 0.3728301988820438,
+    "typical_miss": 85.62997023207674,
+    "coverage": 0.4782608695652174,
+    "hours": 23
+   },
+   "Baldur's Gate 3": {
+    "items": 115,
+    "loss": 0.5458104146469563,
+    "typical_miss": 97.70381188054327,
+    "coverage": 0.9565217391304348,
+    "hours": 23
+   },
+   "Diablo IV": {
+    "items": 115,
+    "loss": 0.16606609274888293,
+    "typical_miss": 31.93733618807326,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Borderlands 4": {
+    "items": 115,
+    "loss": 0.2624282020613537,
+    "typical_miss": 65.60683128743628,
+    "coverage": 0.9130434782608695,
+    "hours": 23
+   },
+   "Kingdom Come: Deliverance II": {
+    "items": 115,
+    "loss": 0.6295679970822903,
+    "typical_miss": 205.42700495831673,
+    "coverage": 0.7391304347826086,
+    "hours": 23
+   },
+   "Assassin's Creed Shadows": {
+    "items": 115,
+    "loss": 0.2956925222998949,
+    "typical_miss": 72.848830441039,
+    "coverage": 0.7391304347826086,
+    "hours": 23
+   },
+   "DOOM: The Dark Ages": {
+    "items": 115,
+    "loss": 0.24958686336276892,
+    "typical_miss": 55.17826750331651,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Elden Ring Nightreign": {
+    "items": 115,
+    "loss": 0.1594935273315411,
+    "typical_miss": 25.123688866391625,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Clair Obscur: Expedition 33": {
+    "items": 115,
+    "loss": 0.5052326724441891,
+    "typical_miss": 136.2214967612595,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Death Stranding 2: On the Beach": {
+    "items": 115,
+    "loss": 0.17732144761011018,
+    "typical_miss": 25.34404606947598,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "FINAL FANTASY VII REBIRTH": {
+    "items": 115,
+    "loss": 0.13915041557755065,
+    "typical_miss": 13.815384169591493,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "The Last of Us Part II": {
+    "items": 115,
+    "loss": 0.11930271279044569,
+    "typical_miss": 9.053815362771122,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Ghost of Tsushima": {
+    "items": 115,
+    "loss": 0.1502640417284975,
+    "typical_miss": 24.530500755239125,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Halo Infinite": {
+    "items": 115,
+    "loss": 0.6118407985452299,
+    "typical_miss": 135.6548305296872,
+    "coverage": 0.5652173913043478,
+    "hours": 23
+   },
+   "Forza Horizon 5": {
+    "items": 115,
+    "loss": 0.2921052046494374,
+    "typical_miss": 59.86818667567317,
+    "coverage": 0.9130434782608695,
+    "hours": 23
+   },
+   "Stellar Blade": {
+    "items": 115,
+    "loss": 0.1820917191358131,
+    "typical_miss": 24.90980956396114,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "ARC Raiders": {
+    "items": 115,
+    "loss": 0.7554780994301635,
+    "typical_miss": 231.3002005238573,
+    "coverage": 0.8260869565217391,
+    "hours": 23
+   },
+   "Marvel Rivals": {
+    "items": 115,
+    "loss": 0.20738932794562037,
+    "typical_miss": 45.55551588208333,
+    "coverage": 0.9130434782608695,
+    "hours": 23
+   },
+   "HELLDIVERS 2": {
+    "items": 115,
+    "loss": 0.6006716813154902,
+    "typical_miss": 164.19744470333524,
+    "coverage": 0.8260869565217391,
+    "hours": 23
+   }
+  },
+  "baseline_per_fold": {
+   "ELDEN RING": {
+    "items": 115,
+    "loss": 0.21084486922080048,
+    "typical_miss": 39.187874181499694,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Resident Evil Requiem": {
+    "items": 115,
+    "loss": 1.2728996118717122,
+    "typical_miss": 404.2651151525875,
+    "coverage": 0.17391304347826086,
+    "hours": 23
+   },
+   "Hogwarts Legacy": {
+    "items": 115,
+    "loss": 0.28814868393114884,
+    "typical_miss": 52.79609480400651,
+    "coverage": 0.6521739130434783,
+    "hours": 23
+   },
+   "Cyberpunk 2077": {
+    "items": 115,
+    "loss": 0.22993203575932056,
+    "typical_miss": 41.5149264686532,
+    "coverage": 0.8260869565217391,
+    "hours": 23
+   },
+   "Ghost of Y\u014dtei": {
+    "items": 115,
+    "loss": 0.4733935443308231,
+    "typical_miss": 113.13215485251953,
+    "coverage": 0.43478260869565216,
+    "hours": 23
+   },
+   "Monster Hunter Wilds": {
+    "items": 115,
+    "loss": 0.42732479281535973,
+    "typical_miss": 112.02574711742277,
+    "coverage": 0.6086956521739131,
+    "hours": 23
+   },
+   "Black Myth: Wukong": {
+    "items": 115,
+    "loss": 3.4340098748156356,
+    "typical_miss": 4339.343575181579,
+    "coverage": 0.0,
+    "hours": 23
+   },
+   "Hollow Knight: Silksong": {
+    "items": 115,
+    "loss": 3.941056090594343,
+    "typical_miss": 7051.74372652034,
+    "coverage": 0.17391304347826086,
+    "hours": 23
+   },
+   "Battlefield 6": {
+    "items": 115,
+    "loss": 2.406461994155672,
+    "typical_miss": 1437.3291172395457,
+    "coverage": 0.30434782608695654,
+    "hours": 23
+   },
+   "Call of Duty: Black Ops 6": {
+    "items": 115,
+    "loss": 0.26196118147144903,
+    "typical_miss": 58.534993048617444,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Call of Duty: Modern Warfare III": {
+    "items": 115,
+    "loss": 0.1519543542869284,
+    "typical_miss": 25.94735613525705,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Call of Duty: Black Ops 7": {
+    "items": 115,
+    "loss": 0.1732837687367586,
+    "typical_miss": 31.809866633511508,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Call of Duty: Modern Warfare 4": {
+    "items": 115,
+    "loss": 0.2361429734032456,
+    "typical_miss": 47.671256608325095,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "007 First Light": {
+    "items": 115,
+    "loss": 0.34839179707823914,
+    "typical_miss": 66.29558526153967,
+    "coverage": 0.5652173913043478,
+    "hours": 23
+   },
+   "Forza Horizon 6": {
+    "items": 115,
+    "loss": 0.409803995918942,
+    "typical_miss": 90.99678983568724,
+    "coverage": 0.7391304347826086,
+    "hours": 23
+   },
+   "Marathon": {
+    "items": 115,
+    "loss": 1.7452413866431913,
+    "typical_miss": 694.6913375964355,
+    "coverage": 0.13043478260869565,
+    "hours": 23
+   },
+   "Saros": {
+    "items": 115,
+    "loss": 0.601135344076658,
+    "typical_miss": 145.75574687998042,
+    "coverage": 0.5217391304347826,
+    "hours": 23
+   },
+   "The Legend of Zelda: Tears of the Kingdom": {
+    "items": 115,
+    "loss": 0.30867511696805716,
+    "typical_miss": 70.47917441813283,
+    "coverage": 0.9130434782608695,
+    "hours": 23
+   },
+   "Starfield": {
+    "items": 115,
+    "loss": 0.2909388080632152,
+    "typical_miss": 65.29430861564988,
+    "coverage": 0.7391304347826086,
+    "hours": 23
+   },
+   "Baldur's Gate 3": {
+    "items": 115,
+    "loss": 2.176751369919138,
+    "typical_miss": 1105.050335122667,
+    "coverage": 0.2608695652173913,
+    "hours": 23
+   },
+   "Diablo IV": {
+    "items": 115,
+    "loss": 0.1254140782878184,
+    "typical_miss": 13.469235511317045,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "Borderlands 4": {
+    "items": 115,
+    "loss": 0.25285925585362506,
+    "typical_miss": 46.68898933681043,
+    "coverage": 0.8695652173913043,
+    "hours": 23
+   },
+   "Kingdom Come: Deliverance II": {
+    "items": 115,
+    "loss": 3.463760124556477,
+    "typical_miss": 4473.399364501553,
+    "coverage": 0.0,
+    "hours": 23
+   },
+   "Assassin's Creed Shadows": {
+    "items": 115,
+    "loss": 0.34518380775816143,
+    "typical_miss": 57.78797812345664,
+    "coverage": 0.6521739130434783,
+    "hours": 23
+   },
+   "DOOM: The Dark Ages": {
+    "items": 115,
+    "loss": 0.25637819500729264,
+    "typical_miss": 46.85228210696333,
+    "coverage": 0.782608695652174,
+    "hours": 23
+   },
+   "Elden Ring Nightreign": {
+    "items": 115,
+    "loss": 0.251614895667037,
+    "typical_miss": 46.002634574764386,
+    "coverage": 0.782608695652174,
+    "hours": 23
+   },
+   "Clair Obscur: Expedition 33": {
+    "items": 115,
+    "loss": 1.14501753074984,
+    "typical_miss": 348.5103372736985,
+    "coverage": 0.043478260869565216,
+    "hours": 23
+   },
+   "Death Stranding 2: On the Beach": {
+    "items": 115,
+    "loss": 0.17615264357082477,
+    "typical_miss": 34.724272016630465,
+    "coverage": 0.9565217391304348,
+    "hours": 23
+   },
+   "FINAL FANTASY VII REBIRTH": {
+    "items": 115,
+    "loss": 0.17339936524784622,
+    "typical_miss": 32.19576957071877,
+    "coverage": 1.0,
+    "hours": 23
+   },
+   "The Last of Us Part II": {
+    "items": 115,
+    "loss": 0.24697434153317258,
+    "typical_miss": 44.41191901393449,
+    "coverage": 0.8695652173913043,
+    "hours": 23
+   },
+   "Ghost of Tsushima": {
+    "items": 115,
+    "loss": 0.22826033749401484,
+    "typical_miss": 47.54723769403466,
+    "coverage": 0.9565217391304348,
+    "hours": 23
+   },
+   "Halo Infinite": {
+    "items": 115,
+    "loss": 0.6313512672244828,
+    "typical_miss": 154.07082214158407,
+    "coverage": 0.5217391304347826,
+    "hours": 23
+   },
+   "Forza Horizon 5": {
+    "items": 115,
+    "loss": 0.3248413301621097,
+    "typical_miss": 57.98268835382214,
+    "coverage": 0.6521739130434783,
+    "hours": 23
+   },
+   "Stellar Blade": {
+    "items": 115,
+    "loss": 0.3724533859227628,
+    "typical_miss": 84.32582137215778,
+    "coverage": 0.7391304347826086,
+    "hours": 23
+   },
+   "ARC Raiders": {
+    "items": 115,
+    "loss": 3.376580667080254,
+    "typical_miss": 4011.245197797296,
+    "coverage": 0.17391304347826086,
+    "hours": 23
+   },
+   "Marvel Rivals": {
+    "items": 115,
+    "loss": 0.20971437818729727,
+    "typical_miss": 41.463144260952504,
+    "coverage": 0.9565217391304348,
+    "hours": 23
+   },
+   "HELLDIVERS 2": {
+    "items": 115,
+    "loss": 3.428757008377356,
+    "typical_miss": 4247.589320732435,
+    "coverage": 0.08695652173913043,
+    "hours": 23
+   }
+  }
+ }
+}

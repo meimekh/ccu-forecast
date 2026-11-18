@@ -1,0 +1,88 @@
+scorer self-check: loss=0.112545 (want 0.112545)  typical_miss=19.52% (want 19.52%)  coverage=1.00 (want 1.00)  -> PASS
+invalid-case self-check: loss=0.360659 (want 0.360659)  -> PASS
+
+37 leave-one-launch-out folds (16 with hour 1 >= 100,000 viewers, 21 practice-like), 851 real scored hours:
+  practice-like: Resident Evil Requiem, Hogwarts Legacy, Ghost of Yōtei, Monster Hunter Wilds, Call of Duty: Black Ops 6, Call of Duty: Modern Warfare III, Call of Duty: Black Ops 7, Call of Duty: Modern Warfare 4, 007 First Light, Forza Horizon 6, The Legend of Zelda: Tears of the Kingdom, Starfield, Diablo IV, Borderlands 4, Assassin's Creed Shadows, DOOM: The Dark Ages, Clair Obscur: Expedition 33, Death Stranding 2: On the Beach, The Last of Us Part II, Ghost of Tsushima, Stellar Blade
+  house baseline on the all   pool: 0.929650 (4255 items)
+  house baseline on the big   pool: 0.261137 (1840 items)
+  house baseline on the near  pool: 0.371029 (2415 items)
+
+pass 1: 360 configurations in 136s, ranked by the pools' mean loss
+      obj       all       big      near bw_scale bw_rel0  alpha smooth
+ 0.297195  0.403891  0.216164  0.271532     0.90    0.00   1.00      1
+ 0.297264  0.401616  0.215237  0.274938     0.90    0.60   1.00      1
+ 0.297553  0.404559  0.216240  0.271860     1.25    0.60   1.00      1
+ 0.297565  0.404109  0.216701  0.271885     0.90    0.00   1.00      2
+ 0.297571  0.403941  0.217307  0.271464     1.25    0.60   0.85      1
+ 0.297581  0.401008  0.219886  0.271850     1.25    0.00   0.85      1
+ 0.297675  0.401851  0.215790  0.275383     0.90    0.60   1.00      2
+ 0.297870  0.401935  0.217168  0.274506     0.90    0.60   0.85      1
+
+pass 2: 162 configurations in 68s, ranked by the pools' mean loss
+      obj       all       big      near bw_scale bw_rel0 bw_relprev  alpha smooth   ess  spread
+ 0.296790  0.401124  0.214579  0.274668     0.90    0.60       0.00   1.00      1   0.0    1.00
+ 0.296968  0.403567  0.215928  0.271410     0.90    0.00       0.00   1.00      1   0.0    1.00
+ 0.296992  0.403352  0.216453  0.271170     1.25    0.60       0.00   0.85      1   0.0    1.00
+ 0.297157  0.404181  0.215651  0.271639     1.25    0.60       0.00   1.00      1   0.0    1.00
+ 0.297195  0.403891  0.216164  0.271532     0.90    0.00       0.00   1.00      1   0.0    0.00
+ 0.297195  0.403891  0.216164  0.271532     0.90    0.00       0.00   1.00      1   0.0    0.60
+ 0.297222  0.401584  0.215162  0.274919     0.90    0.60       0.00   1.00      1   0.0    0.60
+ 0.297264  0.401616  0.215237  0.274938     0.90    0.60       0.00   1.00      1   0.0    0.00
+
+pass 3: 240 configurations in 99s, ranked by the pools' mean loss
+      obj       all       big      near  qmethod  alpha  spread smooth
+ 0.294615  0.397406  0.213259  0.273182   interp   1.00    1.00      1
+ 0.295069  0.397632  0.213910  0.273666   interp   1.00    1.00      2
+ 0.295287  0.397794  0.214803  0.273264   interp   1.00    1.50      1
+ 0.295453  0.399284  0.214848  0.272228   interp   1.00    1.00      1
+ 0.295453  0.399284  0.214848  0.272228   interp   1.00    1.00      1
+ 0.295703  0.398035  0.215452  0.273623   interp   1.00    1.50      2
+ 0.295810  0.399461  0.215323  0.272646   interp   1.00    1.00      2
+ 0.295810  0.399461  0.215323  0.272646   interp   1.00    1.00      2
+
+chosen: {"bw_scale": 0.9, "bw_rel0": 0.6, "bw_relprev": 0.0, "alpha": 1.0, "smooth_k": 1, "ess_floor": 0.0, "min_log_spread": 1.0, "min_templates": 6, "min_base": 1.0, "qmethod": "interp"}
+  all   pool: model 0.397406 vs baseline 0.929650 (-0.532245, 4255 items, 90% coverage 0.866)
+  big   pool: model 0.213259 vs baseline 0.261137 (-0.047878, 1840 items, 90% coverage 0.894)
+  near  pool: model 0.273182 vs baseline 0.371029 (-0.097847, 2415 items, 90% coverage 0.886)
+
+held-out launch                                  hour1     loss     base     miss     base   cov
+ELDEN RING                                      875155   0.1026   0.2108    16.2%    39.2%  1.00
+Resident Evil Requiem                            46345   1.0977   1.2729   304.4%   404.3%  0.17
+Hogwarts Legacy                                 387358   0.1305   0.2881    14.6%    52.8%  1.00
+Cyberpunk 2077                                  851999   0.1401   0.2299    24.9%    41.5%  0.91
+Ghost of Yōtei                                   27206   0.2528   0.4734    51.0%   113.1%  0.96
+Monster Hunter Wilds                            152314   0.4456   0.4273   104.0%   112.0%  0.52
+Black Myth: Wukong                                4941   1.7705   3.4340   933.4%  4339.3%  0.65
+Hollow Knight: Silksong                            164   0.8364   3.9411   222.9%  7051.7%  0.52
+Battlefield 6                                     2470   0.4404   2.4065    51.7%  1437.3%  1.00
+Call of Duty: Black Ops 6                       139097   0.2294   0.2620    53.5%    58.5%  1.00
+Call of Duty: Modern Warfare III                114417   0.1359   0.1520    15.2%    25.9%  1.00
+Call of Duty: Black Ops 7                        79207   0.1268   0.1733     6.7%    31.8%  1.00
+Call of Duty: Modern Warfare 4                   59162   0.1588   0.2361    23.1%    47.7%  1.00
+007 First Light                                 127800   0.2463   0.3484    61.1%    66.3%  0.83
+Forza Horizon 6                                  26312   0.1840   0.4098    32.4%    91.0%  1.00
+Marathon                                          1393   1.2620   1.7452   638.0%   694.7%  0.61
+Saros                                             6400   0.4735   0.6011   100.6%   145.8%  1.00
+The Legend of Zelda: Tears of the Kingdom       129948   0.2482   0.3087    56.1%    70.5%  1.00
+Starfield                                       156828   0.3728   0.2909    85.6%    65.3%  0.48
+Baldur's Gate 3                                   3447   0.5458   2.1768    97.7%  1105.1%  0.96
+Diablo IV                                       533455   0.1661   0.1254    31.9%    13.5%  1.00
+Borderlands 4                                   133568   0.2624   0.2529    65.6%    46.7%  0.91
+Kingdom Come: Deliverance II                       414   0.6296   3.4638   205.4%  4473.4%  0.74
+Assassin's Creed Shadows                        146993   0.2957   0.3452    72.8%    57.8%  0.74
+DOOM: The Dark Ages                              50351   0.2496   0.2564    55.2%    46.9%  1.00
+Elden Ring Nightreign                           319909   0.1595   0.2516    25.1%    46.0%  1.00
+Clair Obscur: Expedition 33                      10639   0.5052   1.1450   136.2%   348.5%  1.00
+Death Stranding 2: On the Beach                  42221   0.1773   0.1762    25.3%    34.7%  1.00
+FINAL FANTASY VII REBIRTH                        53526   0.1392   0.1734    13.8%    32.2%  1.00
+The Last of Us Part II                          365019   0.1193   0.2470     9.1%    44.4%  1.00
+Ghost of Tsushima                               131910   0.1503   0.2283    24.5%    47.5%  1.00
+Halo Infinite                                    20526   0.6118   0.6314   135.7%   154.1%  0.57
+Forza Horizon 5                                  43895   0.2921   0.3248    59.9%    58.0%  0.91
+Stellar Blade                                    27057   0.1821   0.3725    24.9%    84.3%  1.00
+ARC Raiders                                       1410   0.7555   3.3766   231.3%  4011.2%  0.83
+Marvel Rivals                                   165939   0.2074   0.2097    45.6%    41.5%  0.91
+HELLDIVERS 2                                       419   0.6007   3.4288   164.2%  4247.6%  0.83
+
+wrote tools/eval-results.json
+exit=0
