@@ -205,6 +205,16 @@ Nothing outside this repository was written, and the kit under `C:/script/x/kits
 `harness/harness-src.tar.gz` extracted into `.tmp/` (to read `grader/house-forecast-twitch-ccu.ts`) was deleted before
 the commit, and `.tmp/` is not tracked.
 
+Commits (local only, no remote, nothing pushed and nothing submitted):
+
+```
+2144330  the entry, the tools and this report (first commit; the repository had only the starter's LICENSE before)
+```
+
+The search was re-run end to end a second time after the first report was written, and reproduced the same chosen
+configuration and the same three pooled losses to the last digit (pass 3 leaders 0.294615 / 0.397406 / 0.213259 /
+0.273182 both times), so nothing here depends on a run that cannot be repeated.
+
 ## 4. What was NOT verified, and the limitations
 
 1. **No practice-case pinball loss, and no final score.** The practice answers are not in the kit - they are the
