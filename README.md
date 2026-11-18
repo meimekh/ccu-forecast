@@ -1,27 +1,26 @@
-# ccu-forecast
+# GTA VI launch-day Twitch CCU forecaster
 
-A forecast of GTA VI's launch-day Twitch category viewers, hour by hour: for each of hours 2 to 24 of the UTC release
-day, five quantiles of that hour's viewer count, on the levels 0.05, 0.25, 0.5, 0.75 and 0.95.
+[![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/meimekh/ccu-forecast/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/meimekh/ccu-forecast/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
 
-Python 3, standard library only, no network. `main.py` is the entry: it reads every `*.in` in `$MAKEFUN_INPUT_DIR`
-(else `/input`) and writes one `<id>.out` per case to `$MAKEFUN_OUTPUT_DIR` (else `/output`).
+Forecast how many people watch Grand Theft Auto VI live on Twitch in each hour of its release day,
+2026-11-19 (UTC), after the first: for hours 2 to 24, five quantiles of that hour's concurrent
+viewers. Written for the make.fun bounty
+[gta6-twitch-ccu-forecast-01](https://make.fun/bounty/gta6-twitch-ccu-forecast-01), $250 in USDC
+over twenty places.
 
+`main.py` is Python standard library only, needs no network, and is deterministic. It reads the
+case file the grader mounts, learns the shape of a launch hour by hour from the case's own
+comparables (past big console launches, weighted by how closely each one's unlock structure matches
+the case's), and writes five quantiles per hour in log space, pinned to the case's own first-hour
+count.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_INPUT_DIR=<the kit>/input MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
-mkdir -p out && MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out python main.py
-```
 
-The model: hour 1's print `p1` scales the answer, and each comparable launch's release-day window supplies a profile of
-ratios to its own first hour. The comparables are weighted by how well their pre-checkpoint first hour played the same
-role the target's does (size in log viewers, and whether hour 1 was rising, sliding or crossing its unlock), the
-quantiles of the weighted log ratios are taken per hour, and the spread is calibrated. The details, the validation and
-its measured numbers are in `QA_WORKER.md`.
-
-Files:
-
-* `main.py` - the entry.
-* `tools/eval.py` - leave-one-launch-out validation against the kit's comparables (the pinned configuration search and
-  the pinned numbers; writes `tools/eval-results.json`).
-* `tools/validate.py` - output contract, determinism, timing and edge cases.
-* `tools/explore.py` - a scratch reader for the kit's cases and comparables.
-* `QA_WORKER.md` - what was run, what it returned, and what was not verified.
-* `LICENSE` - MIT.
+The grader runs it as `python3 /bot/main.py` with one case in `/input` and a writable `/output`,
+twice, both runs needing byte-identical forecasts.
